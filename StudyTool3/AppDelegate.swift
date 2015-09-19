@@ -13,19 +13,46 @@ import Parse
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    func jumpToLogin () {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier("FrmLogin")
+        self.window?.rootViewController = vc
+    }
+    
+    func try_login () {
+        let query = PFQuery(className: "users").whereKey("username", equalTo: me.username)
+        do {
+            let objects = try query.findObjects()
+            if (objects.count > 0) {
+                for object in objects {
+                    if (object["password"] as? String != me.password) {
+                        jumpToLogin()
+                        break
+                    }
+                }
+            } else {
+                jumpToLogin()
+            }
+        } catch let error as NSError {
+            print(error)
+        }
+        
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // [Optional] Power your app with Local Datastore. For more info, go to
-        // https://parse.com/docs/ios_guide#localdatastore/iOS
+        // Parse setup
         Parse.enableLocalDatastore()
-        
-        // Initialize Parse.
-        Parse.setApplicationId(ps1,
-            clientKey: ps2)
-        
-        // [Optional] Track statistics around application opens.
+        Parse.setApplicationId(ps1, clientKey: ps2)
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        // Check login
+        if (NSUserDefaults.standardUserDefaults().valueForKey("username") == nil) {
+            jumpToLogin()
+            return true
+        }
+        me.username = NSUserDefaults.standardUserDefaults().valueForKey("username") as! String
+        me.password = NSUserDefaults.standardUserDefaults().valueForKey("password") as! String
         return true
     }
 

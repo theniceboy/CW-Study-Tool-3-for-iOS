@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634715611BAD2C8900E8C381 /* StudyTool3-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 634715601BAD2C8900E8C381 /* StudyTool3-Bridging-Header.m */; settings = {ASSET_TAGS = (); }; };
+		634715631BAD2EC700E8C381 /* Gib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634715621BAD2EC700E8C381 /* Gib.swift */; settings = {ASSET_TAGS = (); }; };
+		634715651BAD3A8000E8C381 /* FrmMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634715641BAD3A8000E8C381 /* FrmMain.swift */; settings = {ASSET_TAGS = (); }; };
+		634715671BAD403A00E8C381 /* FrmWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634715661BAD403A00E8C381 /* FrmWords.swift */; settings = {ASSET_TAGS = (); }; };
 		638AEB2A1BABE96B00C86D09 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AEB291BABE96B00C86D09 /* ZFRippleButton.swift */; settings = {ASSET_TAGS = (); }; };
 		638AEB2C1BABE9C200C86D09 /* FrmLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AEB2B1BABE9C200C86D09 /* FrmLogin.swift */; settings = {ASSET_TAGS = (); }; };
 		638AEB2E1BABEA0300C86D09 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AEB2D1BABEA0300C86D09 /* SwiftSpinner.swift */; settings = {ASSET_TAGS = (); }; };
@@ -35,9 +39,6 @@
 		63DA1F2F1BABD4F300B233C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DA1F2D1BABD4F300B233C9 /* LaunchScreen.storyboard */; };
 		63DA1F3A1BABD4F400B233C9 /* StudyTool3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA1F391BABD4F400B233C9 /* StudyTool3Tests.swift */; };
 		63DA1F451BABD4F400B233C9 /* StudyTool3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA1F441BABD4F400B233C9 /* StudyTool3UITests.swift */; };
-		63E38EFB1BAC1B4300262D59 /* StudyTool3-Bridging-Header.h.h in Sources */ = {isa = PBXBuildFile; fileRef = 63E38EFA1BAC195300262D59 /* StudyTool3-Bridging-Header.h.h */; };
-		63E38EFD1BAC1B5F00262D59 /* StudyTool3-Bridging-Header.h.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E38EFA1BAC195300262D59 /* StudyTool3-Bridging-Header.h.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63E38EFF1BAC1BBB00262D59 /* libcommonCrypto.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E38EFE1BAC1BBB00262D59 /* libcommonCrypto.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6347155F1BAD2C8800E8C381 /* StudyTool3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudyTool3-Bridging-Header.h"; sourceTree = "<group>"; };
+		634715601BAD2C8900E8C381 /* StudyTool3-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "StudyTool3-Bridging-Header.m"; sourceTree = "<group>"; };
+		634715621BAD2EC700E8C381 /* Gib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gib.swift; sourceTree = "<group>"; };
+		634715641BAD3A8000E8C381 /* FrmMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrmMain.swift; sourceTree = "<group>"; };
+		634715661BAD403A00E8C381 /* FrmWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrmWords.swift; sourceTree = "<group>"; };
 		638AEB291BABE96B00C86D09 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
 		638AEB2B1BABE9C200C86D09 /* FrmLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrmLogin.swift; sourceTree = "<group>"; };
 		638AEB2D1BABEA0300C86D09 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
@@ -92,8 +98,6 @@
 		63DA1F401BABD4F400B233C9 /* StudyTool3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyTool3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DA1F441BABD4F400B233C9 /* StudyTool3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTool3UITests.swift; sourceTree = "<group>"; };
 		63DA1F461BABD4F400B233C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63E38EFA1BAC195300262D59 /* StudyTool3-Bridging-Header.h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudyTool3-Bridging-Header.h.h"; sourceTree = "<group>"; };
-		63E38EFE1BAC1BBB00262D59 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E38EFF1BAC1BBB00262D59 /* libcommonCrypto.tbd in Frameworks */,
 				638AEB561BABEDED00C86D09 /* libsqlite3.tbd in Frameworks */,
 				638AEB541BABEDE400C86D09 /* libz.tbd in Frameworks */,
 				638AEB521BABEDD800C86D09 /* SystemConfiguration.framework in Frameworks */,
@@ -153,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				638AEB2B1BABE9C200C86D09 /* FrmLogin.swift */,
+				634715641BAD3A8000E8C381 /* FrmMain.swift */,
+				634715661BAD403A00E8C381 /* FrmWords.swift */,
 			);
 			name = Forms;
 			sourceTree = "<group>";
@@ -160,8 +165,10 @@
 		638AEB321BABEA5200C86D09 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				634715621BAD2EC700E8C381 /* Gib.swift */,
 				638AEB301BABEA4B00C86D09 /* Secret.swift */,
-				63E38EFA1BAC195300262D59 /* StudyTool3-Bridging-Header.h.h */,
+				634715601BAD2C8900E8C381 /* StudyTool3-Bridging-Header.m */,
+				6347155F1BAD2C8800E8C381 /* StudyTool3-Bridging-Header.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -201,7 +208,6 @@
 		63DA1F181BABD4F300B233C9 = {
 			isa = PBXGroup;
 			children = (
-				63E38EFE1BAC1BBB00262D59 /* libcommonCrypto.tbd */,
 				63DA1F231BABD4F300B233C9 /* StudyTool3 */,
 				63DA1F381BABD4F400B233C9 /* StudyTool3Tests */,
 				63DA1F431BABD4F400B233C9 /* StudyTool3UITests */,
@@ -261,7 +267,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E38EFD1BAC1B5F00262D59 /* StudyTool3-Bridging-Header.h.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +333,7 @@
 		63DA1F191BABD4F300B233C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "David Chen";
 				TargetAttributes = {
@@ -396,13 +402,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E38EFB1BAC1B4300262D59 /* StudyTool3-Bridging-Header.h.h in Sources */,
+				634715651BAD3A8000E8C381 /* FrmMain.swift in Sources */,
 				638AEB2E1BABEA0300C86D09 /* SwiftSpinner.swift in Sources */,
 				638AEB311BABEA4B00C86D09 /* Secret.swift in Sources */,
 				638AEB2A1BABE96B00C86D09 /* ZFRippleButton.swift in Sources */,
 				63DA1F271BABD4F300B233C9 /* ViewController.swift in Sources */,
 				63DA1F251BABD4F300B233C9 /* AppDelegate.swift in Sources */,
+				634715611BAD2C8900E8C381 /* StudyTool3-Bridging-Header.m in Sources */,
+				634715631BAD2EC700E8C381 /* Gib.swift in Sources */,
 				638AEB2C1BABE9C200C86D09 /* FrmLogin.swift in Sources */,
+				634715671BAD403A00E8C381 /* FrmWords.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/StudyTool3/parse-library-1.8.5",
@@ -556,6 +566,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.cwsoft.StudyTool3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyTool3/StudyTool3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -563,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/StudyTool3/parse-library-1.8.5",
@@ -575,6 +588,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.cwsoft.StudyTool3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyTool3/StudyTool3-Bridging-Header.h";
 			};
 			name = Release;
 		};
