@@ -11,6 +11,7 @@
 		634715631BAD2EC700E8C381 /* Gib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634715621BAD2EC700E8C381 /* Gib.swift */; settings = {ASSET_TAGS = (); }; };
 		634715651BAD3A8000E8C381 /* FrmMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634715641BAD3A8000E8C381 /* FrmMain.swift */; settings = {ASSET_TAGS = (); }; };
 		634715671BAD403A00E8C381 /* FrmWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634715661BAD403A00E8C381 /* FrmWords.swift */; settings = {ASSET_TAGS = (); }; };
+		634715691BAD49DB00E8C381 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634715681BAD49DB00E8C381 /* AVFoundation.framework */; };
 		638AEB2A1BABE96B00C86D09 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AEB291BABE96B00C86D09 /* ZFRippleButton.swift */; settings = {ASSET_TAGS = (); }; };
 		638AEB2C1BABE9C200C86D09 /* FrmLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AEB2B1BABE9C200C86D09 /* FrmLogin.swift */; settings = {ASSET_TAGS = (); }; };
 		638AEB2E1BABEA0300C86D09 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AEB2D1BABEA0300C86D09 /* SwiftSpinner.swift */; settings = {ASSET_TAGS = (); }; };
@@ -64,6 +65,7 @@
 		634715621BAD2EC700E8C381 /* Gib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gib.swift; sourceTree = "<group>"; };
 		634715641BAD3A8000E8C381 /* FrmMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrmMain.swift; sourceTree = "<group>"; };
 		634715661BAD403A00E8C381 /* FrmWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrmWords.swift; sourceTree = "<group>"; };
+		634715681BAD49DB00E8C381 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		638AEB291BABE96B00C86D09 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
 		638AEB2B1BABE9C200C86D09 /* FrmLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrmLogin.swift; sourceTree = "<group>"; };
 		638AEB2D1BABEA0300C86D09 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634715691BAD49DB00E8C381 /* AVFoundation.framework in Frameworks */,
 				638AEB561BABEDED00C86D09 /* libsqlite3.tbd in Frameworks */,
 				638AEB541BABEDE400C86D09 /* libz.tbd in Frameworks */,
 				638AEB521BABEDD800C86D09 /* SystemConfiguration.framework in Frameworks */,
@@ -190,6 +193,7 @@
 		638AEB571BABEE2100C86D09 /* System-Framworks */ = {
 			isa = PBXGroup;
 			children = (
+				634715681BAD49DB00E8C381 /* AVFoundation.framework */,
 				638AEB551BABEDED00C86D09 /* libsqlite3.tbd */,
 				638AEB531BABEDE400C86D09 /* libz.tbd */,
 				638AEB511BABEDD800C86D09 /* SystemConfiguration.framework */,
