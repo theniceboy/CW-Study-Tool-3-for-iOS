@@ -2,7 +2,7 @@
 //  StudyTool3UITests.swift
 //  StudyTool3UITests
 //
-//  Created by 陈为 on 9/18/15.
+//  Created by David Chen on 9/18/15.
 //  Copyright © 2015 David Chen. All rights reserved.
 //
 

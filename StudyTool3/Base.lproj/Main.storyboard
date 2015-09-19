@@ -35,7 +35,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4JW-Nj-NRD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4JW-Nj-NRD" customClass="ZFRippleButton" customModule="StudyTool3" customModuleProvider="target">
                                 <rect key="frame" x="185" y="211" width="230" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="3xE-ND-UiZ"/>
@@ -43,6 +43,7 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="btnLoginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Pg-dj-dQ4"/>
+                                    <segue destination="P7V-M5-27c" kind="presentation" modalTransitionStyle="flipHorizontal" id="VBo-Ve-vpT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,10 +83,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="GnU-CG-5Hr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJx-Pt-9GX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1488" y="651"/>
+            <point key="canvasLocation" x="2080" y="645"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="N70-k8-abu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P7V-M5-27c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="s9Z-HU-r0h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WyV-ut-SaR" kind="relationship" relationship="rootViewController" id="d57-X9-MKD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shn-h5-tPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1352" y="645"/>
         </scene>
     </scenes>
 </document>
