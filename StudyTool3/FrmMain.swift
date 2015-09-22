@@ -22,8 +22,6 @@ class FrmMain: UITableViewController {
         do {
             let objects = try! query.findObjects()
             self.groups.removeAll()
-            print(objects.count)
-            print(me.username)
             for object in objects {
                 self.groups.append(object["name"] as! String)
             }
@@ -61,6 +59,7 @@ class FrmMain: UITableViewController {
         if (segue.identifier == "fMain_fWords") {
             let dvc = segue.destinationViewController as! FrmWords
             dvc.title = cur_group
+            print(cur_group)
         }
     }
 }
