@@ -1,9 +1,6 @@
 ## CW Study Tool 3 for iOS
 A light, cross-platform word study tool, very easy to use
 
-### Usage
-See the example in [ViewController.swift](https://github.com/theniceboy/HoldToSaveImage/blob/master/HoldToSaveImage/ViewController.swift)
-
 ### Requirements
 Swift 2.0
 
