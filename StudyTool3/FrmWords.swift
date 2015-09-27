@@ -31,7 +31,7 @@ class FrmWords: UIViewController {
     // MARK: - Functions
     func read (str: String) {
         speechUtterance = AVSpeechUtterance(string: str)
-        speechUtterance.rate = 0.25
+        speechUtterance.rate = 0.4
         speechUtterance.pitchMultiplier = 0.25
         speechUtterance.volume = 0.75
         
@@ -42,7 +42,11 @@ class FrmWords: UIViewController {
         word_count = wordlist.count
         btnPrev.enabled = (cur_word > 0)
         btnNext.enabled = (cur_word < word_count - 1)
-        lbWord.text = wordlist[cur_word].word
+        do {
+            try! lbWord.text = wordlist[cur_word].word
+        } catch {
+            
+        }
         lbStatus.text = "\(cur_word + 1) / \(word_count)"
         read(lbWord.text!)
     }
@@ -62,8 +66,6 @@ class FrmWords: UIViewController {
         do {
             let objects = try! query.findObjects()
             self.wordlist.removeAll()
-            print(objects.count)
-            print(me.username)
             for object in objects {
                 var new_word = word()
                 new_word.word = object["word"] as! String
