@@ -18,6 +18,7 @@ class FrmWords: UIViewController {
     @IBOutlet weak var btnNext: UIButton!
     @IBOutlet weak var lbStatus: UILabel!
 
+    
     // MARK: - Vars & Lets
     struct word {
         var word: String = "", translation: String = ""
